@@ -12,77 +12,71 @@
 </head>
 
 <body>
-	 
-    <div class="container">
-        <header>
-            <h1>🍎 Premium Apple Varieties</h1>
-            <p>Fresh from the orchard to your table</p>
-        </header>
+	 <header class="header">
+        <h1>🍎 Premium Apple Varieties</h1>
+        <p>Fresh from the orchard to your table</p>
+    </header>
 
-        <div class="main-content">
-            <div class="product-section">
-                <!-- Product Photo Section -->
-                <div class="product__photo">
-                    <div class="photo-container">
-                        <div class="photo-main">
-                            <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple Main View">
-                        </div>
-                        <div class="photo-album">
-                            <ul>
-                                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple Side View"></li>
-                                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple Top View"></li>
-                                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple Close-up"></li>
-                                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple Whole"></li>
-                            </ul>
-                        </div>
-                    </div>
+    <main class="main-content">
+        <section class="product-photo">
+            <div class="photo-container">
+                <div class="photo-main">
+                    <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Fresh Red Apple">
                 </div>
+                <div class="photo-album">
+                    <ul>
+                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Fresh Green Apple"></li>
+                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Fresh Yellow Apple"></li>
+                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Fresh Orange Apple"></li>
+                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Fresh Red Apple"></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
 
-                <!-- Price Section -->
-                <div class="price">$7.93 / kg</div>
+        <section class="product-details">
+            <div class="price">
+                <h2>$7.93</h2>
+                <p>per kilogram</p>
+            </div>
 
-                <!-- Varieties Section -->
-                <div class="variant">
-                    <h3>Choose Your Variety</h3>
-                    <div class="color-options">
-                        <div class="color-option active" data-color="green">
-                            <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green Apple" class="color-preview">
-                            <span class="color-name">Green</span>
-                        </div>
-                        <div class="color-option" data-color="yellow">
-                            <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Yellow Apple" class="color-preview">
-                            <span class="color-name">Yellow</span>
-                        </div>
-                        <div class="color-option" data-color="orange">
-                            <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Orange Apple" class="color-preview">
-                            <span class="color-name">Orange</span>
-                        </div>
-                        <div class="color-option" data-color="red">
-                            <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple" class="color-preview">
-                            <span class="color-name">Red</span>
-                        </div>
+            <div class="variant">
+                <h3>Select Variety</h3>
+                <div class="variant-grid">
+                    <div class="variant-item green">
+                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green Apple" width="60">
+                        <p>Green</p>
+                    </div>
+                    <div class="variant-item yellow">
+                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Yellow Apple" width="60">
+                        <p>Yellow</p>
+                    </div>
+                    <div class="variant-item orange">
+                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Orange Apple" width="60">
+                        <p>Orange</p>
+                    </div>
+                    <div class="variant-item red">
+                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple" width="60">
+                        <p>Red</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Benefits Section -->
             <div class="description">
-                <h2>BENEFITS</h2>
+                <h3>BENEFITS</h3>
                 <ul>
                     <li>Rich in antioxidants and vitamins</li>
                     <li>Supports heart health and digestion</li>
                     <li>Boosts immune system naturally</li>
-                    <li>Low calorie, high fiber snack</li>
+                    <li>Low calorie, high fiber content</li>
                     <li>Improves skin health and hydration</li>
-                    <li>100% organic and farm-fresh</li>
                 </ul>
             </div>
-        </div>
+        </section>
+    </main>
 
-        <!-- Add to Cart Section -->
-        <div class="add-to-cart">
-            <button>ADD TO CART</button>
-        </div>
+    <div class="add-to-cart">
+        <button>ADD TO CART</button>
     </div>
 </body>
 

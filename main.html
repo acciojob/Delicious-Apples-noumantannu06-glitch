@@ -12,72 +12,90 @@
 </head>
 
 <body>
-	 <header class="header">
-        <h1>🍎 Premium Apple Varieties</h1>
-        <p>Fresh from the orchard to your table</p>
-    </header>
+	 <header>
+    <h1>Apple Varieties in Our Grocery Store</h1>
 
-    <main class="main-content">
-        <section class="product-photo">
-            <div class="photo-container">
-                <div class="photo-main">
-                    <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Fresh Red Apple">
-                </div>
-                <div class="photo-album">
-                    <ul>
-                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Fresh Green Apple"></li>
-                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Fresh Yellow Apple"></li>
-                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Fresh Orange Apple"></li>
-                        <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Fresh Red Apple"></li>
-                    </ul>
-                </div>
-            </div>
-        </section>
+</header>
 
-        <section class="product-details">
-            <div class="price">
-                <h2>$7.93</h2>
-                <p>per kilogram</p>
-            </div>
+<nav>
+    <ul>
+        <li><a href="#green" id="nav-green">Green Apples</a></li>
+        <li><a href="#yellow" id="nav-yellow">Yellow Apples</a></li>
+        <li><a href="#orange" id="nav-orange">Orange Apples</a></li>
+        <li><a href="#red" id="nav-red">Red Apples</a></li>
+    </ul>
+</nav>
 
-            <div class="variant">
-                <h3>Select Variety</h3>
-                <div class="variant-grid">
-                    <div class="variant-item green">
-                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green Apple" width="60">
-                        <p>Green</p>
-                    </div>
-                    <div class="variant-item yellow">
-                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Yellow Apple" width="60">
-                        <p>Yellow</p>
-                    </div>
-                    <div class="variant-item orange">
-                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Orange Apple" width="60">
-                        <p>Orange</p>
-                    </div>
-                    <div class="variant-item red">
-                        <img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple" width="60">
-                        <p>Red</p>
-                    </div>
-                </div>
-            </div>
+<main>
+    <section id="green" class="apple-section">
+        <h2>Green Apples</h2>
+        <div class="photo-container">
+            <div class="photo-main"><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green Apple" /></div>
+            <ul class="photo-album">
+                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green Apple View 1" /></li>
+                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302064/codepen/delicious-apples/green-apple2.png" alt="Green Apple View 2" /></li>
+            </ul>
+        </div>
+        <div class="price">$7.93</div>
+        <div class="description">
+            <h3>BENEFITS</h3>
+            <p>Green apples are known for their crisp texture and tart flavor, rich in vitamins and antioxidants.</p>
+        </div>
+    </section>
 
-            <div class="description">
-                <h3>BENEFITS</h3>
-                <ul>
-                    <li>Rich in antioxidants and vitamins</li>
-                    <li>Supports heart health and digestion</li>
-                    <li>Boosts immune system naturally</li>
-                    <li>Low calorie, high fiber content</li>
-                    <li>Improves skin health and hydration</li>
-                </ul>
-            </div>
-        </section>
-    </main>
+    <section id="yellow" class="apple-section">
+        <h2>Yellow Apples</h2>
+        <div class="photo-container">
+            <div class="photo-main"><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Yellow Apple" /></div>
+            <ul class="photo-album">
+                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Yellow Apple View 1" /></li>
+                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302752/codepen/delicious-apples/yellow-apple.png" alt="Yellow Apple View 2" /></li>
+            </ul>
+        </div>
+        <div class="price">$8.50</div>
+        <div class="description">
+            <h3>BENEFITS</h3>
+            <p>Yellow apples are sweet and juicy, providing a good source of dietary fiber and vitamin C.</p>
+        </div>
+    </section>
 
-    <div class="add-to-cart">
-        <button>ADD TO CART</button>
-    </div>
+    <section id="orange" class="apple-section">
+        <h2>Orange Apples</h2>
+        <div class="photo-container">
+            <div class="photo-main"><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Orange Apple" /></div>
+            <ul class="photo-album">
+                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Orange Apple View 1" /></li>
+                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302427/codepen/delicious-apples/orange-apple.png" alt="Orange Apple View 2" /></li>
+            </ul>
+        </div>
+        <div class="price">$9.00</div>
+        <div class="description">
+            <h3>BENEFITS</h3>
+            <p>Orange apples are rich in nutrients and are great for boosting your immune system.</p>
+        </div>
+    </section>
+
+    <section id="red" class="apple-section">
+        <h2>Red Apples</h2>
+        <div class="photo-container">
+            <div class="photo-main"><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple" /></div>
+            <ul class="photo-album">
+                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple View 1" /></li>
+                <li><img src="https://res.cloudinary.com/john-mantas/image/upload/v1537302285/codepen/delicious-apples/red-apple.png" alt="Red Apple View 2" /></li>
+            </ul>
+        </div>
+        <div class="price">$7.50</div>
+        <div class="description">
+            <h3>BENEFITS</h3>
+            <p>Red apples are deliciously sweet and are packed with antioxidants and dietary fiber.</p>
+        </div>
+    </section>
+</main>
+
+<footer>
+    <button class="add-to-cart">ADD TO CART</button>
+</footer>
+
 </body>
 
 </html>
